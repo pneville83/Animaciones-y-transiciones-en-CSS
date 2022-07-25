@@ -41,10 +41,10 @@ body {
     font-weight: 700;
     color: #ffffff;
     background: #5d4e8b;
-  background: linear-gradient(90deg, #4B3986 (0%,) #4B3986 (100%));
+    background: linear-gradient(90deg, #644db3 (0%,) #3f2a86 (100%));
     border: none;
     border-radius: 1000px;
-    box-shadow: 12px 12px 24px #281f44;
+    box-shadow: 12px 12px 24px #190f36;
     transition: all 0.3s ease-in-out 0s;
     cursor: pointer;
     outline: none;
@@ -69,6 +69,7 @@ body {
   
   .button:hover, .button:focus {
     color: #d9ee1b;
+    background-color: #8d7dbd;
     transform: translateY(-6px);
   }
   
